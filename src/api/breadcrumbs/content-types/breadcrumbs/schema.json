@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "breadcrumbs_items",
+  "info": {
+    "singularName": "breadcrumbs",
+    "pluralName": "breadcrumbs-items",
+    "displayName": "Breadcrumbs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "home": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "shop": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "cart": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

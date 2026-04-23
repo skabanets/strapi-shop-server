@@ -50,7 +50,7 @@ export interface UiColorSwatch extends Struct.ComponentSchema {
 export interface UiDressStyleCard extends Struct.ComponentSchema {
   collectionName: 'components_ui_dress_style_card_s';
   info: {
-    displayName: 'dress-style-card (';
+    displayName: 'dress-style-card';
   };
   attributes: {
     image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
