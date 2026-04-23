@@ -149,6 +149,26 @@
         }
       }
     },
+    "defaultColors": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "ui.color-swatch",
+      "repeatable": true
+    },
+    "defaultSizes": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "component": "ui.size-option",
+      "repeatable": true
+    },
     "seo": {
       "type": "component",
       "pluginOptions": {

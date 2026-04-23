@@ -945,6 +945,12 @@ export interface ApiProductPageProductPage extends Struct.SingleTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    defaultColors: Schema.Attribute.Component<'ui.color-swatch', true> &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     defaultDescription: Schema.Attribute.Text &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
@@ -955,6 +961,12 @@ export interface ApiProductPageProductPage extends Struct.SingleTypeSchema {
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
+        };
+      }>;
+    defaultSizes: Schema.Attribute.Component<'ui.size-option', true> &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
         };
       }>;
     defaultSpecs: Schema.Attribute.Component<'ui.key-value', true> &
