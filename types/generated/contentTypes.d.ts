@@ -1415,6 +1415,18 @@ export interface ApiShopPageShopPage extends Struct.SingleTypeSchema {
       'oneToMany',
       'api::shop-page.shop-page'
     >;
+    nextLabel: Schema.Attribute.String &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    previousLabel: Schema.Attribute.String &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     priceLabel: Schema.Attribute.String &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
