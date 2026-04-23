@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ui_key_values",
+  "info": {
+    "displayName": "key-value"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

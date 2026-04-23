@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_catalog_discounts",
+  "info": {
+    "displayName": "discount"
+  },
+  "options": {},
+  "attributes": {
+    "percentage": {
+      "type": "integer",
+      "default": 0
+    },
+    "amountUsd": {
+      "type": "decimal",
+      "default": 0
+    }
+  },
+  "config": {}
+}

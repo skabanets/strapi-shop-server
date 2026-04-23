@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ui_section_headings",
+  "info": {
+    "displayName": "section-heading"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "ctaLabel": {
+      "type": "string"
+    },
+    "ctaHref": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ui_color_swatches",
+  "info": {
+    "displayName": "color-swatch"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "hex": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

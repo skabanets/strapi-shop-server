@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ui_hero_stats",
+  "info": {
+    "displayName": "hero-stat"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "integer"
+    },
+    "suffix": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

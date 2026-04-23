@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ui_dress_style_card_s",
+  "info": {
+    "displayName": "dress-style-card ("
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

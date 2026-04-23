@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_ui_menu_links",
+  "info": {
+    "displayName": "menu-link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "external": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "config": {}
+}
